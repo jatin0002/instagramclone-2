@@ -1,0 +1,12 @@
+.commment {
+  display: flex;
+}
+.commment > p {
+  flex: 1;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.commment > h4 {
+  font-weight: 500;
+  font-size: 15px;
+}

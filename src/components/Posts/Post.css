@@ -1,0 +1,85 @@
+.post {
+  width: 95%;
+  margin: 20px 0;
+}
+.post__header,
+.header__userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.post__header,
+.post__img {
+  border-bottom: 1px solid lightgray;
+}
+.post__img {
+  margin-bottom: 8px;
+}
+.header__userInfo > h5 {
+  margin-left: 10px;
+}
+.post__header > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+.post__img > img {
+  width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.post__option {
+  display: flex;
+  justify-content: space-between;
+}
+.post__leftOptions > .MuiSvgIcon-root {
+  padding: 0 5px;
+}
+.post__likeOption {
+  color: red;
+}
+.post__caption {
+  display: flex;
+  align-items: center;
+}
+.post__caption > h4 {
+  font-weight: 500;
+  font-size: 15px;
+}
+.post__caption > p {
+  margin-left: 5px;
+
+  font-size: 14px;
+}
+.post__lower {
+  padding: 5px 10px;
+}
+.post__view {
+  margin: 5px 0;
+  cursor: pointer;
+}
+.MuiSvgIcon-root {
+  cursor: pointer;
+}
+.post__likes {
+  margin-bottom: 5px;
+}
+.post__input {
+  display: flex;
+  padding: 15px 10px;
+  margin-top: 10px;
+  box-shadow: 0px -0.5px 1px 0px rgba(94, 94, 94, 0.5);
+}
+.post__input > input {
+  flex: 1;
+  border: none;
+}
+.post__input > input:focus {
+  outline: none;
+}
+.post__input > input::placeholder {
+  color: #8e8e8e;
+}
+.post__input > p {
+  color: #ceeafd;
+  cursor: context-menu;
+}

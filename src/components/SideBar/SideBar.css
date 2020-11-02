@@ -1,0 +1,40 @@
+.sidebar__header {
+  display: flex;
+  margin-top: 36px;
+}
+.sidebar__header__userInfo > h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.sidebar__header__userInfo > p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+.sidebar__header > .MuiAvatar-root {
+  margin: 15px 15px 15px 0;
+  width: 60px;
+  height: 60px;
+}
+.sidebar__header__userInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer__options {
+  display: flex;
+}
+.sidebar__footer {
+  margin-top: 25px;
+}
+
+.footer__options > small {
+  padding: 2px;
+}
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}

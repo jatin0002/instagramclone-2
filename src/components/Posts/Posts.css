@@ -1,0 +1,13 @@
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .posts > .MuiCard-root {
+    width: 95%;
+    margin: 28px auto;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .posts > .MuiCard-root {
+    width: 95%;
+    margin: 28px auto;
+  }
+}

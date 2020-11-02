@@ -1,0 +1,15 @@
+.suggestions {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.Suggestions__header__userInfo {
+  flex: 1;
+  margin-left: 15px;
+}
+.Suggestions__header__userInfo > small {
+  color: #989898;
+}
+.suggestions > p {
+  color: #0095f6;
+}

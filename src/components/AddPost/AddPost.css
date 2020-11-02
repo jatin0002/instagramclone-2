@@ -1,0 +1,67 @@
+.addPost {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 0;
+  margin-right: 30px;
+  flex-direction: column;
+}
+.addPost > .addPost__para {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.addPost > .addPost__selectFile {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.custom-file-upload > input[type='file'] {
+  display: none;
+}
+.selected__image > img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+.addPost > .addPost__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 12px;
+}
+.addPost > .addPost__input > .MuiSvgIcon-root {
+  flex: 0.1;
+}
+.addPost > .addPost__input > textarea {
+  outline: none;
+  flex: 0.9;
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+.addPost > .addPost__progress {
+  padding: 0 15px;
+  width: 90%;
+  margin: 0 auto;
+}
+.addPost > .addPost__progress > progress {
+  width: 100%;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .addPost {
+    margin: 15px 30px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .addPost {
+    margin: 15px 30px;
+  }
+}

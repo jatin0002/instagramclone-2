@@ -1,0 +1,63 @@
+.app {
+  background-color: #fafafa;
+}
+.app__body {
+  margin: 0 auto;
+  display: flex;
+  width: 65%;
+}
+.app__body > main {
+  width: 100%;
+}
+.app__stories {
+  width: 92%;
+  margin-top: 28px;
+  padding: 15px 10px;
+  background-color: #fff;
+}
+
+.app__body > main {
+  height: 93vh;
+  overflow: scroll;
+}
+.app__body > main::-webkit-scrollbar {
+  display: none;
+}
+.app__body > main {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.addpost {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.rightSide {
+  width: 35%;
+  height: 93vh;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .app__body {
+    width: 100%;
+  }
+
+  .app__body > main > .app__stories {
+    margin: 28px auto 0;
+  }
+  .rightSide {
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .app__body {
+    width: 100%;
+  }
+  .app__body > main > .app__stories {
+    margin: 28px auto 0;
+  }
+  .rightSide {
+    display: none;
+  }
+}
